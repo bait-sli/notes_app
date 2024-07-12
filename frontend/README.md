@@ -16,6 +16,12 @@ First, run the server (See backend README), then create a `.env.local` or `.env`
 NEXT_PUBLIC_API_URL="PROJECT_BACKEND_URL"
 ```
 
+You can also export the environment variable in your terminal without creating a `.env.local` file:
+
+```
+export NEXT_PUBLIC_API_URL="PROJECT_BACKEND_URL"
+```
+
 Then, run the development server:
 
 ```bash
