@@ -23,7 +23,7 @@ function Header({
   };
 
   return (
-    <header className="fixed w-full bg-gray-600 dark:bg-gray-800 text-white py-4">
+    <header className="fixed z-10 w-full bg-gray-600 dark:bg-gray-800 text-white py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Image
           src={logo}
